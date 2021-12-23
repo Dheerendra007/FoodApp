@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         mainViewModel = ViewModelProvider(this,
             MainViewModelFactory(repository,application)
         ).get(MainViewModel::class.java)
-        
+
         initialiseAdapter()
     }
 
